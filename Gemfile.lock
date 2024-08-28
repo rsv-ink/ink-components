@@ -3,6 +3,7 @@ PATH
   specs:
     ink_components (0.1.0)
       rails (>= 6.1.7.4)
+      railsui_icon (>= 1.0.8)
       view_component (= 2.82.0)
 
 GEM
@@ -175,6 +176,8 @@ GEM
     rails-html-sanitizer (1.6.0)
       loofah (~> 2.21)
       nokogiri (~> 1.14)
+    railsui_icon (1.0.8)
+      rails (>= 5.2)
     railties (7.2.0)
       actionpack (= 7.2.0)
       activesupport (= 7.2.0)
@@ -275,6 +278,7 @@ DEPENDENCIES
   ink_components!
   jsbundling-rails (= 1.1.1)
   puma
+  railsui_icon (= 1.0.8)
   rubocop-rails-omakase (= 1.0.0)
   sprockets-rails
   sqlite3 (= 1.7.3)
